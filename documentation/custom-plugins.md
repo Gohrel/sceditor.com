@@ -56,7 +56,7 @@ Called when the plugin is registered to the editor.
 
 ### destroy <a id="destroy"></a>
 
-Called when `destory()` is called on the editor or the plugin is removed from the editor.
+Called when `destroy()` is called on the editor or the plugin is removed from the editor.
 
 This signal should be used to unbind any DOM events and to do any clean up so that any memory used can be freed by the browser.
 
